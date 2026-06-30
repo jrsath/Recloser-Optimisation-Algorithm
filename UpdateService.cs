@@ -9,7 +9,7 @@ public static class UpdateService
 
         string json =
             await client.GetStringAsync(
-            "https://raw.githubusercontent.com/YOURNAME/ROA/main/version.json");
+            "https://raw.githubusercontent.com/jrsath/Recloser-Optimisation_Algorithm/main/version.json");
 
         var latest =
             JsonSerializer.Deserialize<VersionInfo>(json);
