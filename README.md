@@ -16,13 +16,6 @@ This folder contains a Windows desktop app prototype for the recloser optimisati
 - `installer/` - Inno Setup script and the developer rebuild command.
 - `.build/` and `installer/build/` - generated build and installer staging folders; they are ignored.
 
-## Development
-
-Open `RecloserOptimisation.sln` in Visual Studio and run the app project.
-
-This is the long-term app path because it produces a real Windows `.exe`, native file dialogs and a cleaner structure for future parsing, validation and optimisation code.
-If Visual Studio asks for workloads, use `.NET desktop development`.
-
 ## Download And Install
 From a GitHub ZIP or release folder, the root has one installer to run:
 
