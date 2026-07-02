@@ -15,7 +15,7 @@ public static class UpdateService
             JsonSerializer.Deserialize<VersionInfo>(json);
 
         Version current =
-            new Version("1.0.0");
+            new Version("1.1.0");
 
         Version online =
             new Version(latest.Version);
